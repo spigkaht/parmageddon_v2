@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+ // Graphical variables
+@import "config/fonts";
+@import "config/colors";
+
+ // External libraries
+
+ // Your CSS partials
+@import "components/index";
+
+ // ****** app-wide styles *******

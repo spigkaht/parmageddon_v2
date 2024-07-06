@@ -1,0 +1,21 @@
+<% if notice %>
+  <div role="alert">
+    <%= notice %>
+    <button type="button" data-bs-dismiss="alert" aria-label="Close">
+    </button>
+  </div>
+<% end %>
+<% if alert %>
+  <div role="alert">
+    <%= alert %>
+    <button type="button" data-bs-dismiss="alert" aria-label="Close">
+    </button>
+  </div>
+<% end %>
+<% if error %>
+  <div role="error">
+    <%= error %>
+    <button type="button" data-bs-dismiss="error" aria-label="Close">
+    </button>
+  </div>
+<% end %>
